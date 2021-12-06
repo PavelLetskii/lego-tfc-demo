@@ -37,6 +37,6 @@ variable "enable_nat_gw" {
   default = true
 }
 
-variable "enable_vpc_gw" {
+variable "enable_vpn_gw" {
   default = true
 }
