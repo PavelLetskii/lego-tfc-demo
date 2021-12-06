@@ -8,7 +8,7 @@ variable "cluster_name" {
 }
 
 variable "instance_type" {
-  default = "m4.large"
+  default = "m5.large"
 }
 
 variable "asg_max_size" {
