@@ -3,7 +3,7 @@ output "vpc_id" {
 }
 
 output "vpc_cidr" {
-  value = var.cidr_block
+  value = var.vpc_cidr
 }
 
 output "private_subnet_ids" {
