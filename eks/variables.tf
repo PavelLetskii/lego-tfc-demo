@@ -12,9 +12,9 @@ variable "instance_type" {
 }
 
 variable "asg_max_size" {
-  default = 5
+  default = 6
 }
 
 variable "asg_desired_capacity" {
-  default = 4
+  default = 5
 }
