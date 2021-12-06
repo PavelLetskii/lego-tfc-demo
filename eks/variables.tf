@@ -10,14 +10,10 @@ variable "instance_type" {
   default = "m5.large"
 }
 
-variable "asg_min_size" {
-  default = 1
-}
-
 variable "asg_max_size" {
   default = 5
 }
 
 variable "asg_desired_capacity" {
-  default = 3
+  default = 5
 }
