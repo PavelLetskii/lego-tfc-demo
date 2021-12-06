@@ -15,5 +15,5 @@ variable "asg_max_size" {
 }
 
 variable "asg_desired_capacity" {
-  default = 5
+  default = 4
 }
