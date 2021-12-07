@@ -1,5 +1,5 @@
 variable "vpc_name" {
-  default = "cluster_a_vpc"
+  default = "one_workspace_vpc"
 }
 
 variable "vpc_cidr" {
@@ -9,9 +9,9 @@ variable "vpc_cidr" {
 variable "azs_list" {
   type = list
   default = [
-    "eu-north-1a",
-    "eu-north-1b",
-    "eu-north-1c"
+    "eu-west-1a",
+    "eu-west-1b",
+    "eu-west-1c"
   ]
 }
 
@@ -45,7 +45,7 @@ variable "cluster_version" {
 }
 
 variable "cluster_name" {
-  default = "lego-demo-cluster-a"
+  default = "lego-demo-one-workspace-cluster"
 }
 
 variable "instance_type" {
